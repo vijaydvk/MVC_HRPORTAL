@@ -1,0 +1,38 @@
+dcd_id,dc_id,field_name,data
+1,10,"Current Store ID",257
+2,11,"Current Store ID",257
+3,11,"New Store ID",159
+4,12,"Current Store ID",257
+5,12,"New Store ID",159
+6,12,"Effective Date",2017-10-24
+7,12,"Current Pay",11
+8,13,"Current Store ID",257
+9,13,"New Store ID",175
+10,13,"Effective Date",2017-10-11
+11,13,"Current Pay",11
+12,13,"New Pay",12
+13,14,"Current Store ID",257
+14,14,"New Store ID",236
+15,14,"Effective Date",2017-10-09
+16,14,"Current Pay",11
+17,14,"New Pay",12
+18,6,"Current Store ID",257
+19,6,"New Store ID",236
+20,6,"Effective Date",2017-10-09
+21,6,"Current Pay",11.11
+22,6,"New Pay",11.22
+23,9,"Current Store ID",257
+24,9,"New Store ID",107
+25,9,"Effective Date",2017-10-09
+26,9,"Current Pay",11
+27,9,"New Pay",12
+28,12,"Current Store ID",107
+29,12,"New Store ID",236
+30,12,"Effective Date",2017-10-02
+31,12,"Current Pay",11
+32,12,"New Pay",12
+33,14,"Current Store ID",257
+34,14,"New Store ID",142
+35,14,"Effective Date",2017-10-03
+36,14,"Current Pay",11
+37,14,"New Pay",12

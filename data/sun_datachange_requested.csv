@@ -1,0 +1,15 @@
+dcr_id,dc_id,dc_type_id,dc_type
+1,15,1,NULL
+2,15,2,NULL
+3,15,0,NULL
+4,15,0,NULL
+5,15,0,NULL
+6,15,0,NULL
+7,16,1,NULL
+8,16,3,NULL
+9,16,4,NULL
+10,17,1,1
+11,17,2,2
+12,17,3,3
+13,18,1,Promotion
+14,18,2,Demotion

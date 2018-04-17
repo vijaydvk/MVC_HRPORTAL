@@ -1,0 +1,7 @@
+dc_type_id,dc_type,active
+1,Promotion,1
+2,Demotion,1
+3,Termination,1
+4,"Pay Increase",1
+5,"Pay Decrease",1
+6,"Changing Store",1

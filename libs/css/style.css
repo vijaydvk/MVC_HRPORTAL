@@ -1,0 +1,177 @@
+html
+{ height: 100%;}
+
+*
+{ margin: 0;
+  padding: 0;}
+
+
+#main, #header, #banner, #menubar, #site_content, #footer, #content_green
+{ margin-left: auto; 
+  margin-right: auto;}
+
+#main
+{ background: transparent;}
+
+.sidebar_item a:link
+{ color: #FFF;
+  
+  /*background: -moz-linear-gradient(#284020, #437133);*/
+  background: -moz-linear-gradient(#556B2F, #556B2F);
+  background: -o-linear-gradient(#556B2F, #556B2F);
+  background: -webkit-linear-gradient(#556B2F, #556B2F);
+  text-shadow: none;
+   display: block;
+    width: 165px;
+    height: 15px;
+    background: #556B2F;
+    padding: 8px;
+    text-align: center;
+    border-radius: 5px;
+    color: white;
+    font-weight: bold;
+	text-decoration: none;
+  }  
+  
+.sidebar_item a.current
+{ color: #FFF;
+  background: #437133;
+  /*background: -moz-linear-gradient(#284020, #437133);*/
+  background: -moz-linear-gradient(#437133, #437133);
+  background: -o-linear-gradient(#437133, #437133);
+  background: -webkit-linear-gradient(#437133, #437133);
+  text-shadow: none;}  
+
+ 
+  
+#menu li ul {
+	position:absolute;
+	margin-top:2.5em;
+	margin-left:-10em;
+	display:none;
+}
+#menu ul li ul {
+	margin-top:5em;
+	margin-left:15em;
+}
+
+ul#menu li:hover a
+{ color: #FFF;
+  background: #284020;
+  text-shadow: none;
+  display:block;}
+  
+ul#menu li:hover .prod
+{ color: #FFF;
+  /*background: #437133;*/
+  background: #284020;
+  background: -moz-linear-gradient(#284020, #284020);
+  background: -o-linear-gradient(#284020, #284020);
+  background: -webkit-linear-gradient(#284020, #284020);
+  text-shadow: none;
+  display:block;}
+
+/*  
+ul#menu li:hover a
+{ color: #FFF;
+  background: #437133;
+  background: -moz-linear-gradient(#284020, #437133);
+  background: -o-linear-gradient(#284020, #437133);
+  background: -webkit-linear-gradient(#284020, #437133);
+  text-shadow: none;}
+*/
+
+#site_content
+{ width: 960px;
+  overflow: hidden;
+  margin: 0 auto;
+  /* height Added by kuppuram */
+  
+  background: transparent url(../images/transparent.png) repeat;  } 
+
+.sidebar_container
+{ float: left;
+  margin: 10px 20px 0 20px;
+  width: 220px;
+  padding: 0;}
+
+.sidebar
+{ float: left;
+  width: 250px;
+  padding: 0;
+  margin-top: 10px;
+  margin-bottom: 10px;}
+
+.sidebar_item
+{ font: normal 100% Arial, Helvetica, sans-serif;
+  width: 215px;}
+
+.sidebar h2
+{ padding: 5px 0 0 10px;
+  font: normal 140% Arial, Helvetica, sans-serif;
+  height: 30px;
+  text-shadow: 0px -1px 0px #000;
+  color: #fff;
+  background: #284020;
+  background: -moz-linear-gradient(#437133, #284020);
+  background: -o-linear-gradient(#437133, #284020);
+  background: -webkit-linear-gradient(#437133, #284020);
+  border-radius: 15px 15px 15px 15px;
+  -moz-border-radius: 15px 15px 15px 15px;
+  -webkit-border: 15px 15px 15px 15px;
+  -webkit-box-shadow: rgba(0, 0, 0, 0.5) 0px 0px 5px;
+  -moz-box-shadow: rgba(0, 0, 0, 0.5) 0px 0px 5px;
+  box-shadow: rgba(0, 0, 0, 0.5) 0px 0px 5px;}  
+
+#content
+{ width: 680px;
+  margin-bottom: 20px;
+  float: left;}
+
+.content_item
+{ width: 680px;
+  margin-top: 20px;
+  margin-bottom: 20px;}
+  
+.content_container
+{ width: 320px;
+  padding: 5px;
+  margin-right: 10px;
+  float: left;}
+  
+#content_green
+ { width: 960px;
+  /*height: 160px;*/
+  height: 50px;
+  text-align: center; 
+  background: #284020;
+  background: -moz-linear-gradient(#437133, #284020);
+  background: -o-linear-gradient(#437133, #284020);
+  background: -webkit-linear-gradient(#437133, #284020);
+  border-radius: 0px 0px 15px 15px;
+  -moz-border-radius: 0px 0px 15px 15px;
+  -webkit-border: 0px 0px 15px 15px;
+  -webkit-box-shadow: rgba(0, 0, 0, 0.5) 0px 0px 10px;
+  -moz-box-shadow: rgba(0, 0, 0, 0.5) 0px 0px 10px;
+  box-shadow: rgba(0, 0, 0, 0.5) 0px 0px 10px;} 
+  
+#content_green p
+ { color: #FFF;}  
+
+#content_green h4
+{ text-shadow: none;}
+  
+.content_green_container_box
+{ width: 285px;
+  padding: 5px;
+  text-align: center;
+  margin: 20px 10px 10px 10px;
+  float: left;}
+
+.content_green_container_boxl
+{ width: 285px;
+  padding: 5px;
+  text-align: center;
+  margin: 20px 0 10px 10px;
+  float: left;}
+ 
